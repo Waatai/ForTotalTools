@@ -25,7 +25,7 @@ namespace ChoiceCardsForTotalTools.Cards
         public override void OnRemoveCard(Player player, Gun gun, GunAmmo gunAmmo, CharacterData data, HealthHandler health, Gravity gravity, Block block, CharacterStatModifiers characterStats)
         {
             //Run when the card is removed from the player
-            UnityEngine.Debug.Log($"[{SimplyCards.ModInitials}][Card] {GetTitle()} has been removed from player {player.playerID}.");
+            UnityEngine.Debug.Log($"[{ChoiceCardsForTotalTools.ModInitials}][Card] {GetTitle()} has been removed from player {player.playerID}.");
         }
 
 
@@ -55,7 +55,7 @@ namespace ChoiceCardsForTotalTools.Cards
                     stat = "Effect",
                     amount = "No",
                     simepleAmount = CardInfoStat.SimpleAmount.notAssigned
-                }
+                }//simeple? #question
             };
         }
         protected override CardThemeColor.CardThemeColorType GetTheme()

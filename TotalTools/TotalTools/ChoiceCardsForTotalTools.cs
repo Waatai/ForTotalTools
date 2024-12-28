@@ -18,7 +18,7 @@ namespace ChoiceCardsForTotalTools
     [BepInProcess("Rounds.exe")]
     public class ChoiceCardsForTotalTools : BaseUnityPlugin
     {
-        public static SimplyCards instance { get; private set; }//added in step "Add a Reference to your Mod’s core class". Should there be a ; ? #question
+        public static ChoiceCardsForTotalTools instance { get; private set; }//added in step "Add a Reference to your Mod’s core class". Should there be a ; ? #question
         private const string ModId = "com.Waatai.rounds.CCFTT";// ref code uses .Mod and the tutorial changes to .rounds , which should it be? what would it even mean in this game? #question
         private const string ModName = "Choice Cards For Total Tools";
         public const string Version = "1.0.0"; // What version are we on (major.minor.patch)?
@@ -33,7 +33,7 @@ namespace ChoiceCardsForTotalTools
         void Start()
         {
             instance = this;//added in step "Add a Reference to your Mod’s core class"
-            CustomCard.BuildCard<Template>();
+            CustomCard.BuildCard<ImBack>();
         }
     }
 }
