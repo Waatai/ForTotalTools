@@ -64,7 +64,7 @@ namespace ChoiceCardsForTotalTools.Cards
                 {
                     positive = true,
                     stat = "Who's Paul?",
-                    amount = "to "+PhotonNetwork.NickName,
+                    amount = $"to {PhotonNetwork.NickName}.",
                     simepleAmount = CardInfoStat.SimpleAmount.notAssigned
                 },
                 new CardInfoStat()
