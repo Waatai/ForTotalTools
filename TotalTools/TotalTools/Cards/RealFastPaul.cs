@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Photon.Pun;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ namespace ChoiceCardsForTotalTools.Cards
         public override void SetupCard(CardInfo cardInfo, Gun gun, ApplyCardStats cardStats, CharacterStatModifiers statModifiers, Block block)
         {
             //Edits values on card itself, which are then applied to the player in `ApplyCardStats`
-            statModifiers.attackSpeedMultiplier = 1.4f;
+            gun.reloadTime = 1.4f;//doesn't seem to be stacking correctly, so I am doing this wrong somehow. #question
             gun.damage = 1.2f;
             gun.projectileSpeed = 9.99f;
             UnityEngine.Debug.Log($"[{ChoiceCardsForTotalTools.ModInitials}][Card] {GetTitle()} has been setup.");
@@ -46,7 +47,7 @@ namespace ChoiceCardsForTotalTools.Cards
         }
         protected override CardInfo.Rarity GetRarity()
         {
-            return CardInfo.Rarity.Common;
+            return CardInfo.Rarity.Rare;
         }
         protected override CardInfoStat[] GetStats()
         {
@@ -63,7 +64,7 @@ namespace ChoiceCardsForTotalTools.Cards
                 {
                     positive = true,
                     stat = "Who's Paul?",
-                    amount = "to Paul.",
+                    amount = "to "+PhotonNetwork.NickName,
                     simepleAmount = CardInfoStat.SimpleAmount.notAssigned
                 },
                 new CardInfoStat()

@@ -14,6 +14,7 @@
           "BepInEx": "5.4.19.0",
           "CardChoiceSpawnUniqueCardPatch": "1.0.0.0",
           "ModdingUtils": "1.0.0.0",
+          "PhotonUnityNetworking": "0.0.0.0",
           "UnboundLib": "3.2.13.0",
           "UnityEngine.CoreModule": "0.0.0.0",
           "UnityEngine": "0.0.0.0"
@@ -59,6 +60,14 @@
           "ModdingUtils.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PhotonUnityNetworking/0.0.0.0": {
+        "runtime": {
+          "PhotonUnityNetworking.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -113,14 +122,6 @@
       "UnityEngine.Physics2DModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.Physics2DModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "PhotonUnityNetworking/0.0.0.0": {
-        "runtime": {
-          "PhotonUnityNetworking.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -695,6 +696,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "PhotonUnityNetworking/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "UnboundLib/3.2.13.0": {
       "type": "reference",
       "serviceable": false,
@@ -726,11 +732,6 @@
       "sha512": ""
     },
     "UnityEngine.Physics2DModule/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "PhotonUnityNetworking/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

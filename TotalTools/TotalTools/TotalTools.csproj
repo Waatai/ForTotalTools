@@ -21,6 +21,9 @@
     <Reference Include="ModdingUtils">
       <HintPath>..\..\..\..\..\Downloads\ModdingUtils.dll</HintPath>
     </Reference>
+    <Reference Include="PhotonUnityNetworking">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\ROUNDS\ROUNDS_Data\Managed\PhotonUnityNetworking.dll</HintPath>
+    </Reference>
     <Reference Include="UnboundLib">
       <HintPath>..\..\..\..\..\Downloads\UnboundLib.dll</HintPath>
     </Reference>
