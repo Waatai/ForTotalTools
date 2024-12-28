@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Waatai\\Documents\\GitHub\\ForTotalTools\\TotalTools\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E88C6038-8CA5-4CB7-B21C-A9782F863B7E}|TotalTools\\TotalTools.csproj|c:\\users\\waatai\\documents\\github\\fortotaltools\\totaltools\\totaltools\\choicecardsfortotaltools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E88C6038-8CA5-4CB7-B21C-A9782F863B7E}|TotalTools\\TotalTools.csproj|solutionrelative:totaltools\\choicecardsfortotaltools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E88C6038-8CA5-4CB7-B21C-A9782F863B7E}|TotalTools\\TotalTools.csproj|c:\\users\\waatai\\documents\\github\\fortotaltools\\totaltools\\totaltools\\totaltools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E88C6038-8CA5-4CB7-B21C-A9782F863B7E}|TotalTools\\TotalTools.csproj|solutionrelative:totaltools\\totaltools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E88C6038-8CA5-4CB7-B21C-A9782F863B7E}|TotalTools\\TotalTools.csproj|c:\\users\\waatai\\documents\\github\\fortotaltools\\totaltools\\totaltools\\cards\\realfastpaul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E88C6038-8CA5-4CB7-B21C-A9782F863B7E}|TotalTools\\TotalTools.csproj|solutionrelative:totaltools\\cards\\realfastpaul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,12 +22,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RealFastPaul.cs",
+              "DocumentMoniker": "C:\\Users\\Waatai\\Documents\\GitHub\\ForTotalTools\\TotalTools\\TotalTools\\Cards\\RealFastPaul.cs",
+              "RelativeDocumentMoniker": "TotalTools\\Cards\\RealFastPaul.cs",
+              "ToolTip": "C:\\Users\\Waatai\\Documents\\GitHub\\ForTotalTools\\TotalTools\\TotalTools\\Cards\\RealFastPaul.cs",
+              "RelativeToolTip": "TotalTools\\Cards\\RealFastPaul.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:39:23.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TotalTools",
+              "Title": "ChoiceCardsForTotalTools.cs",
+              "DocumentMoniker": "C:\\Users\\Waatai\\Documents\\GitHub\\ForTotalTools\\TotalTools\\TotalTools\\ChoiceCardsForTotalTools.cs",
+              "RelativeDocumentMoniker": "TotalTools\\ChoiceCardsForTotalTools.cs",
+              "ToolTip": "C:\\Users\\Waatai\\Documents\\GitHub\\ForTotalTools\\TotalTools\\TotalTools\\ChoiceCardsForTotalTools.cs",
+              "RelativeToolTip": "TotalTools\\ChoiceCardsForTotalTools.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T10:21:37.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TotalTools.csproj",
               "DocumentMoniker": "C:\\Users\\Waatai\\Documents\\GitHub\\ForTotalTools\\TotalTools\\TotalTools\\TotalTools.csproj",
               "RelativeDocumentMoniker": "TotalTools\\TotalTools.csproj",
               "ToolTip": "C:\\Users\\Waatai\\Documents\\GitHub\\ForTotalTools\\TotalTools\\TotalTools\\TotalTools.csproj",

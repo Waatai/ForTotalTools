@@ -21,7 +21,7 @@ namespace ChoiceCardsForTotalTools
         public static ChoiceCardsForTotalTools instance { get; private set; }//added in step "Add a Reference to your Mod’s core class". Should there be a ; ? #question
         private const string ModId = "com.Waatai.rounds.CCFTT";// ref code uses .Mod and the tutorial changes to .rounds , which should it be? what would it even mean in this game? #question
         private const string ModName = "Choice Cards For Total Tools";
-        public const string Version = "1.1.0"; // What version are we on (major.minor.patch)?
+        public const string Version = "1.1.1"; // What version are we on (major.minor.patch)?
         public const string ModInitials = "CCFTT";//is this short enough for the game? #question
 
         void Awake()

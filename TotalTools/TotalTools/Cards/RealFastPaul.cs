@@ -68,7 +68,7 @@ namespace ChoiceCardsForTotalTools.Cards
                 },
                 new CardInfoStat()
                 {
-                    positive = true,
+                    positive = false,
                     stat = "Reload speed",
                     amount = "-40%",
                     simepleAmount = CardInfoStat.SimpleAmount.notAssigned
