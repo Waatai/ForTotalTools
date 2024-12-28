@@ -14,7 +14,13 @@
           "BepInEx": "5.4.19.0",
           "CardChoiceSpawnUniqueCardPatch": "1.0.0.0",
           "ModdingUtils": "1.0.0.0",
+          "Photon3Unity3D": "4.1.4.8",
+          "PhotonChat": "0.0.0.0",
+          "PhotonRealtime": "0.0.0.0",
+          "PhotonUnityNetworking.Demos": "0.0.0.0",
           "PhotonUnityNetworking": "0.0.0.0",
+          "PhotonUnityNetworking.Utilities": "0.0.0.0",
+          "PhotonWebSocket": "0.0.0.0",
           "UnboundLib": "3.2.13.0",
           "UnityEngine.CoreModule": "0.0.0.0",
           "UnityEngine": "0.0.0.0"
@@ -63,9 +69,57 @@
           }
         }
       },
+      "Photon3Unity3D/4.1.4.8": {
+        "runtime": {
+          "Photon3Unity3D.dll": {
+            "assemblyVersion": "4.1.4.8",
+            "fileVersion": "4.1.4.8"
+          }
+        }
+      },
+      "PhotonChat/0.0.0.0": {
+        "runtime": {
+          "PhotonChat.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "PhotonRealtime/0.0.0.0": {
+        "runtime": {
+          "PhotonRealtime.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "PhotonUnityNetworking.Demos/0.0.0.0": {
+        "runtime": {
+          "PhotonUnityNetworking.Demos.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
       "PhotonUnityNetworking/0.0.0.0": {
         "runtime": {
           "PhotonUnityNetworking.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "PhotonUnityNetworking.Utilities/0.0.0.0": {
+        "runtime": {
+          "PhotonUnityNetworking.Utilities.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "PhotonWebSocket/0.0.0.0": {
+        "runtime": {
+          "PhotonWebSocket.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -199,14 +253,6 @@
           }
         }
       },
-      "Photon3Unity3D/4.1.4.8": {
-        "runtime": {
-          "Photon3Unity3D.dll": {
-            "assemblyVersion": "4.1.4.8",
-            "fileVersion": "4.1.4.8"
-          }
-        }
-      },
       "InControl/0.0.0.0": {
         "runtime": {
           "InControl.dll": {
@@ -228,14 +274,6 @@
           "Sirenix.Serialization.dll": {
             "assemblyVersion": "2.1.6.0",
             "fileVersion": "2.1.6.0"
-          }
-        }
-      },
-      "PhotonRealtime/0.0.0.0": {
-        "runtime": {
-          "PhotonRealtime.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -696,7 +734,37 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Photon3Unity3D/4.1.4.8": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PhotonChat/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PhotonRealtime/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PhotonUnityNetworking.Demos/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "PhotonUnityNetworking/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PhotonUnityNetworking.Utilities/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PhotonWebSocket/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -781,11 +849,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Photon3Unity3D/4.1.4.8": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
     "InControl/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -797,11 +860,6 @@
       "sha512": ""
     },
     "Sirenix.Serialization/2.1.6.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "PhotonRealtime/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

@@ -94,3 +94,7 @@ C:\Users\Waatai\Documents\GitHub\ForTotalTools\TotalTools\TotalTools\bin\Debug\n
 C:\Users\Waatai\Documents\GitHub\ForTotalTools\TotalTools\TotalTools\obj\Debug\netstandard2.1\TotalTools.csproj.Up2Date
 C:\Users\Waatai\Documents\GitHub\ForTotalTools\TotalTools\TotalTools\obj\Debug\netstandard2.1\TotalTools.dll
 C:\Users\Waatai\Documents\GitHub\ForTotalTools\TotalTools\TotalTools\obj\Debug\netstandard2.1\TotalTools.pdb
+C:\Users\Waatai\Documents\GitHub\ForTotalTools\TotalTools\TotalTools\bin\Debug\netstandard2.1\PhotonChat.dll
+C:\Users\Waatai\Documents\GitHub\ForTotalTools\TotalTools\TotalTools\bin\Debug\netstandard2.1\PhotonUnityNetworking.Demos.dll
+C:\Users\Waatai\Documents\GitHub\ForTotalTools\TotalTools\TotalTools\bin\Debug\netstandard2.1\PhotonUnityNetworking.Utilities.dll
+C:\Users\Waatai\Documents\GitHub\ForTotalTools\TotalTools\TotalTools\bin\Debug\netstandard2.1\PhotonWebSocket.dll
