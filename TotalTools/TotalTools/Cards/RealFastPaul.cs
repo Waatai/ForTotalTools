@@ -10,14 +10,14 @@ using UnityEngine;
 
 namespace ChoiceCardsForTotalTools.Cards
 {
-    class ImBack : CustomCard
+    class RealFastPaul : CustomCard
     {
         public override void SetupCard(CardInfo cardInfo, Gun gun, ApplyCardStats cardStats, CharacterStatModifiers statModifiers, Block block)
         {
             //Edits values on card itself, which are then applied to the player in `ApplyCardStats`
-            block.forceToAdd = -10f;
-            statModifiers.health = 1.2f;
-            block.cdAdd = 0.25f;
+            statModifiers.attackSpeedMultiplier = 1.4f;
+            gun.damage = 1.2f;
+            gun.projectileSpeed = 9.99f;
             UnityEngine.Debug.Log($"[{ChoiceCardsForTotalTools.ModInitials}][Card] {GetTitle()} has been setup.");
         }
         public override void OnAddCard(Player player, Gun gun, GunAmmo gunAmmo, CharacterData data, HealthHandler health, Gravity gravity, Block block, CharacterStatModifiers characterStats)
@@ -34,11 +34,11 @@ namespace ChoiceCardsForTotalTools.Cards
 
         protected override string GetTitle()
         {
-            return "I'm Back";
+            return "Real Fastpaul";
         }
         protected override string GetDescription()
         {
-            return "Jump Backwards when you block.";
+            return "Please Paul Responsibly.";
         }
         protected override GameObject GetCardArt()
         {
@@ -53,17 +53,31 @@ namespace ChoiceCardsForTotalTools.Cards
             return new CardInfoStat[]
             {
                 new CardInfoStat()
-                 {
+                {
                     positive = true,
-                    stat = "Health",
-                    amount = "+20%",
+                    stat = "Bullet speed",
+                    amount = "+999%",
                     simepleAmount = CardInfoStat.SimpleAmount.notAssigned
                 },
                 new CardInfoStat()
                 {
-                    positive = false,
-                    stat = "Block Cooldown",
-                    amount = "+0.25s",
+                    positive = true,
+                    stat = "Who's Paul?",
+                    amount = "to Paul.",
+                    simepleAmount = CardInfoStat.SimpleAmount.notAssigned
+                },
+                new CardInfoStat()
+                {
+                    positive = true,
+                    stat = "Reload speed",
+                    amount = "-40%",
+                    simepleAmount = CardInfoStat.SimpleAmount.notAssigned
+                },
+                new CardInfoStat()
+                {
+                    positive = true,
+                    stat = "DMG",
+                    amount = "+20%",
                     simepleAmount = CardInfoStat.SimpleAmount.notAssigned
                 }
             };

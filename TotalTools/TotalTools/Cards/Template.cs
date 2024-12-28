@@ -64,7 +64,7 @@ namespace ChoiceCardsForTotalTools.Cards
         }
         public override string GetModName()
         {
-            return "ChoiceCardsForTotalTools.ModInitials";
+            return ChoiceCardsForTotalTools.ModInitials;
         }
     }
 }
