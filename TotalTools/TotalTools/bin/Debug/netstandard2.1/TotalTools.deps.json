@@ -22,6 +22,7 @@
           "PhotonUnityNetworking.Utilities": "0.0.0.0",
           "PhotonWebSocket": "0.0.0.0",
           "UnboundLib": "3.2.13.0",
+          "Unity.TextMeshPro": "0.0.0.0",
           "UnityEngine.CoreModule": "0.0.0.0",
           "UnityEngine": "0.0.0.0"
         },
@@ -133,6 +134,14 @@
           }
         }
       },
+      "Unity.TextMeshPro/0.0.0.0": {
+        "runtime": {
+          "Unity.TextMeshPro.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
       "UnityEngine.CoreModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.CoreModule.dll": {
@@ -208,14 +217,6 @@
       "SonigonAudioEngine.Runtime/0.0.0.0": {
         "runtime": {
           "SonigonAudioEngine.Runtime.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "Unity.TextMeshPro/0.0.0.0": {
-        "runtime": {
-          "Unity.TextMeshPro.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -392,6 +393,14 @@
       "UnityEngine.ImageConversionModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.ImageConversionModule.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "UnityEngine.TextCoreModule/0.0.0.0": {
+        "runtime": {
+          "UnityEngine.TextCoreModule.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
           }
@@ -613,14 +622,6 @@
           }
         }
       },
-      "UnityEngine.TextCoreModule/0.0.0.0": {
-        "runtime": {
-          "UnityEngine.TextCoreModule.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
       "UnityEngine.UIElementsModule/0.0.0.0": {
         "runtime": {
           "UnityEngine.UIElementsModule.dll": {
@@ -774,6 +775,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Unity.TextMeshPro/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "UnityEngine.CoreModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
@@ -820,11 +826,6 @@
       "sha512": ""
     },
     "SonigonAudioEngine.Runtime/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Unity.TextMeshPro/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -935,6 +936,11 @@
       "sha512": ""
     },
     "UnityEngine.ImageConversionModule/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnityEngine.TextCoreModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -1070,11 +1076,6 @@
       "sha512": ""
     },
     "UnityEngine.InputModule/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UnityEngine.TextCoreModule/0.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

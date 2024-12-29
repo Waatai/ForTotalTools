@@ -6,39 +6,44 @@ using System.Threading.Tasks;
 using UnboundLib;
 using UnboundLib.Cards;
 using UnityEngine;
+using Photon.Realtime;
+using TMPro;
+using Photon.Pun;
 
 
 namespace ChoiceCardsForTotalTools.Cards
 {
-    class ImBack : CustomCard
+    class AltFastPaul : CustomCard
     {
         public override void SetupCard(CardInfo cardInfo, Gun gun, ApplyCardStats cardStats, CharacterStatModifiers statModifiers, Block block)
         {
             //Edits values on card itself, which are then applied to the player in `ApplyCardStats`
-            block.forceToAdd = -10f;
-            statModifiers.health = 1.2f;
-            block.cdAdd = 0.25f;
+            gun.reloadTime = 1.4f;
+            gun.damage = 1.2f;
+            gun.projectileSpeed = 9.99f;
             //UnityEngine.Debug.Log($"[{ChoiceCardsForTotalTools.ModInitials}][Card] {GetTitle()} has been setup.");
         }
         public override void OnAddCard(Player player, Gun gun, GunAmmo gunAmmo, CharacterData data, HealthHandler health, Gravity gravity, Block block, CharacterStatModifiers characterStats)
         {
             //Edits values on player when card is selected
+            base.GetComponentInParent<TextMeshProUGUI>().text = "Paul";
             //UnityEngine.Debug.Log($"[{ChoiceCardsForTotalTools.ModInitials}][Card] {GetTitle()} has been added to player {player.playerID}.");
         }
         public override void OnRemoveCard(Player player, Gun gun, GunAmmo gunAmmo, CharacterData data, HealthHandler health, Gravity gravity, Block block, CharacterStatModifiers characterStats)
         {
             //Run when the card is removed from the player
+            base.GetComponentInParent<TextMeshProUGUI>().text = base.GetComponentInParent<PhotonView>().Owner.NickName;
             //UnityEngine.Debug.Log($"[{ChoiceCardsForTotalTools.ModInitials}][Card] {GetTitle()} has been removed from player {player.playerID}.");
         }
 
 
         protected override string GetTitle()
         {
-            return "I'm Back";
+            return "Alt Fastpaul";
         }
         protected override string GetDescription()
         {
-            return "Jump Backwards when you block.";
+            return "SPD & PWR! Please Paul Responsibly.";
         }
         protected override GameObject GetCardArt()
         {
@@ -46,24 +51,38 @@ namespace ChoiceCardsForTotalTools.Cards
         }
         protected override CardInfo.Rarity GetRarity()
         {
-            return CardInfo.Rarity.Common;
+            return CardInfo.Rarity.Rare;
         }
         protected override CardInfoStat[] GetStats()
         {
             return new CardInfoStat[]
             {
                 new CardInfoStat()
-                 {
+                {
                     positive = true,
-                    stat = "Health",
-                    amount = "+20%",
+                    stat = "Bullet speed",
+                    amount = "+999%",
+                    simepleAmount = CardInfoStat.SimpleAmount.notAssigned
+                },
+                new CardInfoStat()
+                {
+                    positive = true,
+                    stat = "you're Paul!",
+                    amount = "to Paul.",
                     simepleAmount = CardInfoStat.SimpleAmount.notAssigned
                 },
                 new CardInfoStat()
                 {
                     positive = false,
-                    stat = "Block Cooldown",
-                    amount = "+0.25s",
+                    stat = "Reload speed",
+                    amount = "-40%",
+                    simepleAmount = CardInfoStat.SimpleAmount.notAssigned
+                },
+                new CardInfoStat()
+                {
+                    positive = true,
+                    stat = "DMG",
+                    amount = "+20%",
                     simepleAmount = CardInfoStat.SimpleAmount.notAssigned
                 }
             };
